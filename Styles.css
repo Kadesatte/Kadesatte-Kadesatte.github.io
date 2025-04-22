@@ -1220,6 +1220,7 @@
     text-decoration: none;
     left: 920px;
     top: 2040px;
+    white-space: nowrap;
 }
 
 .Ust-Kamenogorsk:hover {
