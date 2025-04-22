@@ -1332,6 +1332,7 @@
     text-decoration: none;
     left: 1305px;
     top: 2080px;
+    white-space: nowrap;
 }
 
 .All-Cities:hover {
@@ -1346,6 +1347,7 @@
     color: black;
     left: 528px;
     top: 2140px;
+    white-space: nowrap;
 }
 
 .License:hover {
@@ -1375,6 +1377,7 @@
     left: 528px;
     top: 2220px;
     padding-bottom: 50px;
+    white-space: nowrap;
 }
 
 .Advertising:hover {
@@ -1389,6 +1392,7 @@
     text-decoration: none;
     left: 920px;
     top: 2140px;
+    white-space: nowrap;
 }
 
 .VK {
@@ -1438,6 +1442,7 @@
     text-decoration: none;
     left: 1305px;
     top: 2140px;
+    white-space: nowrap;
 }
 
 .Google-Play {
