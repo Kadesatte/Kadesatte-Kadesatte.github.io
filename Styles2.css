@@ -1,0 +1,180 @@
+.Navigation {
+    position: absolute;
+    align-items: center;
+    gap: 5px;
+    top: 80px;
+    left: 375px;
+}
+
+.Home-nav {
+    position: absolute;
+    color: dimgray;
+    font-size: 15px;
+    font-family: Arial;
+    white-space: nowrap;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.Login-nav {
+    position: absolute;
+    color: dimgray;
+    font-size: 15px;
+    font-family: Arial;
+    left: 70px;
+    cursor: pointer;
+    color: dodgerblue;
+}
+
+.Home-nav:hover {
+    color: dodgerblue;
+}
+
+.logo2 {
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 35px;
+    top: 130px;
+    left: 830px;
+    font-family: Oswald;
+}
+
+.form-container {
+    position: absolute;
+    left: 775px;
+    top: 250px;
+}
+
+.Login {
+    margin-bottom: 35px;
+    width: 295px;
+    height: 45px;
+}
+
+.Password {
+    margin-bottom: 35px;
+    width: 295px;
+    height: 45px;
+}
+
+.Submit {
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: steelblue;
+    color: white;
+    font-family: Arial;
+    font-size: 18px;
+    width: 305px;
+    height: 45px;
+    transition: 0.2s;
+}
+
+.Submit:hover {
+    background-color: dodgerblue;
+}
+
+.Registration-txt {
+    position: absolute;
+    font-family: Oswald;
+    font-size: 17px;
+    color: black;
+    top: 240px;
+    left: 5px;
+    white-space: nowrap;
+    font-weight: 300;
+}
+
+.Registration {
+    position: absolute;
+    font-family: Oswald;
+    font-size: 17px;
+    color: black;
+    top: 240px;
+    left: 180px;
+    white-space: nowrap;
+    font-weight: 300;
+    text-decoration: none;
+    color: steelblue;
+}
+
+.Registration:hover {
+    color: dodgerblue;
+}
+
+.Socials-txt {
+    position: absolute;
+    font-family: Oswald;
+    font-size: 30px;
+    color: black;
+    top: 290px;
+    left: 13px;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.Google {
+    position: absolute;
+    top: 350px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+
+.Google:hover {
+    border: 2px solid black;
+}
+
+.VK {
+    position: absolute;
+    top: 348px;
+    left: 90px;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+
+.VK:hover {
+    border: 2px solid black;
+}
+
+.Facebook {
+    position: absolute;
+    top: 351px;
+    left: 180px;
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+
+.Facebook:hover {
+    border: 2px solid black;
+}
+
+.Apple {
+    position: absolute;
+    top: 347px;
+    left: 260px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+
+.Apple:hover {
+    border: 2px solid black;
+}
