@@ -1,3 +1,7 @@
+.header {
+    position: absolute;
+}
+
 .logo {
     position: absolute;
     color: black;
@@ -22,9 +26,11 @@
 }
 
 .location-link {
+    position: absolute;
     color: black;
     font-family: Arial;
     text-decoration: none;
+    white-space: nowrap;
 }
 
 .nav-location:hover .location-link {
@@ -115,6 +121,7 @@
     top: 35px;
     left: 1400px;
     display: flex;
+    white-space: nowrap;
 }
 
 .nav-support svg {
@@ -154,6 +161,7 @@
     left: 1245px;
     top: 75px;
     transition: 0.2s;
+    white-space: nowrap;
 }
 
 .link-announcement:hover {
@@ -183,6 +191,7 @@
 }
 
 .search-container {
+    position: absolute;
     display: flex;
     align-items: center;
 }
@@ -571,6 +580,25 @@
     cursor: pointer;
 }
 
+.Dresser-container {
+    position: absolute;
+}
+
+.Sneakers-container {
+    position: absolute;
+}
+
+.Auto-container {
+    position: absolute;
+} 
+
+.Notebook-container {
+    position: absolute;
+}
+
+.Sweatshirt-container {
+    position: absolute;
+}
 
 .Phone-Deliviry {
     position: absolute;
@@ -1520,52 +1548,383 @@
 	left: 120px;
     }
    
-   .banner1 {
-	left: 70px;
-   }
+    .banner1 {
+        left: 1%;
+    }
 
     .banner2 {
-	left: 750px;
-   }
+        left: 52%;
+    }
 
     .txt1 {
-	left: 200px;
-   }
+        left: 5%;
+    }
+
+    #feedback-form {
+    display: none;
+    }
 
     .category1 {
-	left: 220px;
+	left: 5%;
    }
 
     .category2 {
-	left: 485px;
+	left: 25%;
    }
 
     .category3 {
-	left: 750px;
+	left: 45%;
    }
 
     .category4 {
-	left: 1000px;
+	left: 65%;
    }
 
     .category5 {
-	left: 1270px;
+	left: 85%;
    }
 
     .txt2 {
-	left: 200px;
+	left: 5%;
    }
 
     .Announcements {
-	left: 290px;
-   }
-
-    .footer {
-	left: -180px;
-	white-space: nowrap;
+	left: 8%;
    }
 
     .location-link {
 	left: 100px;
    }
+
+   .chart-container {
+    left: 15%;
+   }
+
+   .footer {
+    left: -29%;
+   }
+   
+   .header {
+    left: -5%;
+   }
+}
+
+@media (max-width: 360px) {
+    .logo {
+        top: 10px;
+        left: 44px;
+    }
+
+    .location-link {
+        top: 18px;
+        left: -38px;
+    }
+
+    .link-autorization {
+        top: 11px;
+        left: 265px;
+    }
+
+    .link-announcement {
+        top: 130px;
+        left: 64px;
+    }
+
+    .category-btn {
+        top: 180px;
+        left: 165px;
+    }
+
+    .txt1 {
+        top: 720px;
+        left: 30px;
+    }
+
+    .txt2 {
+        top: 1380px;
+        left: 60px;
+    }
+
+    .Announcements {
+        top: 1500px;
+    }
+
+
+    .banner1 {
+        top: 250px;
+        width: 320px;
+        left: 20px;
+    }
+
+    .txt-banner1 {
+        top: 130px;
+        left: 1px;
+        white-space: nowrap;
+    }
+
+    .txt-banner2 {
+        top: 160px;
+        left: 91px;
+        white-space: nowrap;
+    }
+
+    .scammer-banner1 {
+        height: 140px;
+        width: 150px;
+        left: 90px;
+    }
+
+    .banner2 {
+        top: 500px;
+        width: 320px;
+        left: 20px;
+    }
+
+    .txt-banner3 {
+        top: 130px;
+        left: 1px;
+        white-space: nowrap;
+    }
+
+    .txt-banner4 {
+        top: 160px;
+        left: 40px;
+        white-space: nowrap;
+    }
+    
+    .buy-banner2 {
+        height: 140px;
+        width: 150px;
+        left: 90px;
+    }
+
+    .category1 {
+        top: 800px;
+        left: 20px;
+    }
+
+    .category2 {
+        top: 800px;
+        left: 200px;
+    }
+
+    .category3 {
+        top: 1000px;
+        left: 20px;
+    }
+
+    .category4 {
+        top: 1000px;
+        left: 200px;
+    }
+
+    .category5 {
+        top: 1200px;
+        left: 120px;
+    }
+
+    .search-container {
+        top: 10px;
+        left: -330px;
+    }
+
+    .search-box {
+        width: 250px;
+        border-right: 1px solid black;
+    }
+
+    .search-btn {
+        display: none;
+    }
+
+    .Dresser-container {
+        left: -395px;
+        top: 450px;
+    }
+
+    .Sneakers-container {
+        top: 1720px;
+    }
+
+    .chart-container {
+        display: none;
+    }
+
+    .Auto-container {
+        top: 870px;
+        left: -778px;
+    }
+
+    .Notebook-container {
+        left: -400px;
+        top: 880px;
+    }
+
+    .Sweatshirt-container {
+        top: 1300px;
+        left: -778px;
+    }
+
+    .Astana {
+        display: none;
+    }
+
+    .Almata {
+        display: none;
+    }
+    
+    .Petropavlovsk {
+        display: none;
+    }
+    
+    .Aktobe {
+        display: none;
+    }
+    
+    .Zhezkazgan {
+        display: none;
+    }
+    
+    .Kokshetau {
+        display: none;
+    }
+    
+    .Kostanay {
+        display: none;
+    }
+    
+    .Kyzylorda {
+        display: none;
+    }
+    
+    .Mamlyutka {
+        display: none;
+    }
+    
+    .Semey {
+        display: none;
+    }
+    
+    .Taldykorgan {
+        display: none;
+    }
+    
+    .Taraz {
+        display: none;
+    }
+    
+    .Temirtau {
+        display: none;
+    }
+    
+    .Uralsk {
+        display: none;
+    }
+    
+    .Ust-Kamenogorsk {
+        display: none;
+    }
+    
+    .Usharal {
+        display: none;
+    }
+    
+    .Khromtau {
+        display: none;
+    }
+    
+    .Shalkar {
+        display: none;
+    }
+    
+    .Shardara {
+        display: none;
+    }
+    
+    .Shakhtinsk {
+        display: none;
+    }
+    
+    .Shymkent {
+        display: none;
+    }
+    
+    .Shchuchinsk {
+        display: none;
+    }
+
+    .All-Cities {
+        top: 3180px;
+        left: 255px;
+    }
+
+    .License {
+        top: 3210px;
+        left: 190px;
+    }
+
+    .Help {
+        top: 3240px;
+        left: 260px;
+    }
+
+    .Advertising {
+        top: 3270px;
+        left: 200px;
+    }
+
+    .Socials {
+        top: 3305px;
+        left: 215px;
+    }
+
+    .VK {
+        top: 3330px;
+        left: 210px;
+    }
+
+    .classmates {
+        top: 3336px;
+        left: 280px;
+    }
+
+    .X {
+        top: 3332px;
+        left: 335px;
+    }
+
+    .App {
+        top: 3390px;
+        left: 215px;
+    }
+
+    .Google-Play {
+        top: 3420px;
+        left: 125px;
+    }
+
+    .App-Store {
+        top: 3420px;
+        left: 310px;
+    }
+
+    .messages-link {
+        display: none;
+    }
+
+    .favorites-link {
+        display: none;
+    }
+
+    .support-link {
+        display: none;
+    }
+
+    svg {
+        display: none;
+    }
+
+    #hint {
+        display: none;
+    }
 }
