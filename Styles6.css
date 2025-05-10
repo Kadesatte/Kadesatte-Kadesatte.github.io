@@ -1,0 +1,1034 @@
+.logo {
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    top: 72px;
+    left: 374px;
+    font-family: Oswald;
+    transition: color 0.3s ease;
+}
+
+    .logo:hover {
+        color: dodgerblue;
+    }
+
+.nav-location {
+    position: absolute;
+    top: 35px;
+    left: 373px;
+    display: flex;
+}
+
+.location-link {
+    color: black;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+.nav-location:hover .location-link {
+    color: dodgerblue;
+    text-decoration: underline;
+}
+
+.nav-messages {
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    top: 35px;
+    left: 1100px;
+    display: flex;
+}
+
+    .nav-messages svg {
+        width: 17px;
+        height: 17px;
+        vertical-align: middle;
+        margin-right: 3px;
+        fill: black;
+        stroke: black;
+    }
+
+    .nav-messages:hover {
+        color: dodgerblue;
+    }
+
+        .nav-messages:hover svg {
+            fill: dodgerblue;
+            stroke: dodgerblue;
+        }
+
+    .nav-messages .messages-link {
+        color: black;
+        text-decoration: none;
+    }
+
+        .nav-messages .messages-link:hover {
+            color: dodgerblue;
+        }
+
+.nav-favorites {
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    top: 35px;
+    left: 1250px;
+    display: flex;
+}
+
+    .nav-favorites svg {
+        width: 17px;
+        height: 17px;
+        vertical-align: middle;
+        margin-right: 3px;
+    }
+
+    .nav-favorites:hover {
+        color: dodgerblue;
+    }
+
+        .nav-favorites:hover svg {
+            fill: dodgerblue;
+            stroke: dodgerblue;
+        }
+
+    .nav-favorites .favorites-link {
+        color: black;
+        text-decoration: none;
+    }
+
+        .nav-favorites .favorites-link:hover {
+            color: dodgerblue;
+        }
+
+.nav-support {
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    top: 35px;
+    left: 1400px;
+    display: flex;
+}
+
+    .nav-support svg {
+        width: 17px;
+        height: 17px;
+        vertical-align: middle;
+        margin-right: 3px;
+    }
+
+    .nav-support:hover {
+        color: dodgerblue;
+    }
+
+        .nav-support:hover svg {
+            fill: dodgerblue;
+            stroke: dodgerblue;
+        }
+
+    .nav-support .support-link {
+        color: black;
+        text-decoration: none;
+    }
+
+        .nav-support .support-link:hover {
+            color: dodgerblue;
+        }
+
+.link-announcement {
+    position: absolute;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial;
+    background-color: steelblue;
+    padding: 8px 70px;
+    border-radius: 6px;
+    color: white;
+    left: 1245px;
+    top: 75px;
+    transition: 0.2s;
+}
+
+    .link-announcement:hover {
+        background-color: dodgerblue;
+    }
+
+.link-autorization {
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial;
+    background-color: white;
+    border-color: black;
+    border: 1px solid black;
+    padding: 7px 20px;
+    border-radius: 6px;
+    left: 1140px;
+    top: 75px;
+    transition: 0.2s;
+}
+
+    .link-autorization:hover {
+        background-color: dodgerblue;
+        border-color: dodgerblue;
+        color: white;
+    }
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-box {
+    position: absolute;
+    padding: 8px;
+    width: 400px;
+    border: 1px solid black;
+    border-right: none;
+    border-radius: 2px 0 0 2px;
+    outline: none;
+    transition: 0.2s;
+    left: 630px;
+    top: 75px;
+}
+
+.search-btn {
+    position: absolute;
+    padding: 8px 15px;
+    background-color: steelblue;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    height: 34px;
+    color: white;
+    transition: 0.2s;
+    cursor: pointer;
+    font-family: Arial;
+    left: 1045px;
+    top: 75px;
+}
+
+.search-box:hover {
+    border-color: dodgerblue;
+}
+
+.search-btn:hover {
+    background-color: dodgerblue;
+}
+
+.category-btn {
+    position: absolute;
+    left: 520px;
+    top: 75px;
+    height: 35px;
+    padding: 8px;
+    border-radius: 6px;
+    background-color: steelblue;
+    border: none;
+    color: white;
+    font-family: Arial;
+    font-size: 15px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+    .category-btn:hover {
+        background-color: dodgerblue;
+    }
+
+.Navigation {
+    position: absolute;
+    align-items: center;
+    gap: 5px;
+    top: 130px;
+    left: 375px;
+}
+
+.Home-nav {
+    position: absolute;
+    color: dimgray;
+    font-size: 15px;
+    font-family: Arial;
+    white-space: nowrap;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.Announcement-nav {
+    position: absolute;
+    color: dimgray;
+    font-size: 15px;
+    font-family: Arial;
+    white-space: nowrap;
+    left: 70px;
+    cursor: pointer;
+}
+
+.Home-nav:hover {
+    color: dodgerblue;
+}
+
+.Announcement-nav:hover {
+    color: dodgerblue;
+}
+
+.Announcement2-nav {
+    position: absolute;
+    color: dimgray;
+    font-size: 15px;
+    font-family: Arial;
+    white-space: nowrap;
+    left: 200px;
+    cursor: pointer;
+}
+
+.Announcement2-nav:hover {
+    color: dodgerblue;
+}
+
+.Announcement3-nav {
+    position: absolute;
+    color: dimgray;
+    font-size: 15px;
+    font-family: Arial;
+    white-space: nowrap;
+    left: 270px;
+    color: dodgerblue;
+}
+
+.Announcement-container {
+    position: absolute;
+    top: 200px;
+    left: 380px;
+}
+
+.Announcement-txt {
+    font-size: 25px;
+    font-family: Oswald;
+    color: black;
+}
+
+.Announcement-txt2 {
+    position: absolute;
+    font-size: 15px;
+    font-family: Arial;
+    text-decoration: underline;
+    top: 25px;
+    left: 440px;
+    color: dimgray;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.Announcement-txt2:hover {
+    color: dodgerblue;
+}
+
+.Dresser-img {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    top: 60px;
+    left: 5px;
+    border-radius: 10px;
+}
+
+.Sell-txt {
+    position: absolute;
+    top: 200px;
+    left: 1250px;
+    font-size: 25px;
+    font-family: Oswald;
+    color: black;
+}
+
+.Sell-btn1 {
+    position: absolute;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial;
+    background-color: steelblue;
+    padding: 8px 70px;
+    border-radius: 6px;
+    color: white;
+    padding-top: 13px;
+    height: 25px;
+    left: 1245px;
+    top: 250px;
+    transition: 0.2s;
+}
+
+.Sell-btn1:hover {
+    background-color: dodgerblue;
+}
+
+.Sell-btn2 {
+    position: absolute;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial;
+    background-color: white;
+    padding: 8px 70px;
+    border-radius: 6px;
+    border: 2px solid steelblue;
+    color: black;
+    padding-top: 13px;
+    padding-left: 85px;
+    height: 25px;
+    width: 128px;
+    left: 1245px;
+    top: 330px;
+    transition: 0.2s;
+}
+
+.Sell-btn2:hover {
+    border-color: dodgerblue;
+}
+
+.Avatar {
+    position: absolute;
+    width: 50px;
+    height: auto;
+    top: 405px;
+    left: 1250px;
+    border-radius: 10px;
+}
+
+.Sell-txt2 {
+    position: absolute;
+    top: 405px;
+    left: 1320px;
+    font-size: 17px;
+    font-family: Arial;
+    color: dodgerblue;
+    cursor: pointer;
+}
+
+.Sell-txt2:hover {
+    text-decoration: underline;
+}
+
+.Sell-txt3 {
+    position: absolute;
+    top: 430px;
+    left: 1320px;
+    font-size: 17px;
+    font-family: Arial;
+    color: dimgray;
+}
+
+.Sell-txt4 {
+    position: absolute;
+    top: 455px;
+    left: 1320px;
+    font-size: 17px;
+    font-family: Arial;
+    color: black;
+}
+
+.Star {
+    position: absolute;
+    width: 25px;
+    height: auto;
+    top: 451px;
+    left: 1350px;
+    border-radius: 10px;
+}
+
+.Sell-txt5 {
+    position: absolute;
+    top: 455px;
+    left: 1450px;
+    font-size: 17px;
+    font-family: Arial;
+    color: dimgray;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Sell-txt5:hover {
+    color: dodgerblue;
+}
+
+.Agree {
+    position: absolute;
+    width: 30px;
+    height: auto;
+    top: 490px;
+    left: 1260px;
+    border-radius: 10px;
+}
+
+.Sell-txt6 {
+    position: absolute;
+    top: 495px;
+    left: 1300px;
+    font-size: 17px;
+    font-family: Arial;
+    color: black;
+}
+
+.Inf-txt1 {
+    position: absolute;
+    top: 680px;
+    left: 400px;
+    font-size: 17px;
+    font-family: Arial;
+    color: dimgray;
+}
+
+.Inf-txt2 {
+    position: absolute;
+    top: 680px;
+    left: 620px;
+    font-size: 17px;
+    font-family: Arial;
+    color: black;
+}
+
+.Inf-txt3 {
+    position: absolute;
+    top: 750px;
+    left: 400px;
+    font-size: 17px;
+    font-family: Arial;
+    color: dimgray;
+}
+
+.Inf-txt4 {
+    position: absolute;
+    top: 750px;
+    left: 620px;
+    font-size: 17px;
+    font-family: Arial;
+    color: black;
+}
+
+.Inf-txt5 {
+    position: absolute;
+    top: 1050px;
+    left: 400px;
+    font-size: 17px;
+    font-family: Arial;
+    color: dimgray;
+}
+
+.Inf-txt6 {
+    position: absolute;
+    top: 1050px;
+    left: 550px;
+    font-size: 17px;
+    font-family: Arial;
+    color: black;
+}
+
+.Inf-txt7 {
+    position: absolute;
+    top: 1100px;
+    left: 400px;
+    font-size: 17px;
+    font-family: Arial;
+    color: dimgray;
+}
+
+.Inf-txt8 {
+    position: absolute;
+    top: 1100px;
+    left: 550px;
+    font-size: 17px;
+    font-family: Arial;
+    color: black;
+}
+
+.Inf-txt9 {
+    position: absolute;
+    top: 1150px;
+    left: 400px;
+    font-size: 17px;
+    font-family: Arial;
+    color: dimgray;
+}
+
+.Inf-txt10 {
+    position: absolute;
+    top: 1150px;
+    left: 550px;
+    font-size: 17px;
+    font-family: Arial;
+    color: black;
+}
+
+.Inf-btn {
+    position: absolute;
+    top: 1150px;
+    left: 1000px;
+    font-size: 17px;
+    font-family: Arial;
+    color: dimgray;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Inf-btn:hover {
+    color: dodgerblue;
+}
+
+.footer {
+    position: absolute;
+    top: -550px;
+}
+
+.Astana {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 528px;
+    top: 1800px;
+}
+
+    .Astana:hover {
+        text-decoration: underline;
+    }
+
+.Almata {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 528px;
+    top: 1840px;
+}
+
+    .Almata:hover {
+        text-decoration: underline;
+    }
+
+.Petropavlovsk {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 528px;
+    top: 1880px;
+}
+
+    .Petropavlovsk:hover {
+        text-decoration: underline;
+    }
+
+.Aktobe {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 528px;
+    top: 1920px;
+}
+
+    .Aktobe:hover {
+        text-decoration: underline;
+    }
+
+.Zhezkazgan {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 528px;
+    top: 1960px;
+}
+
+    .Zhezkazgan:hover {
+        text-decoration: underline;
+    }
+
+.Kokshetau {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 528px;
+    top: 2000px;
+}
+
+    .Kokshetau:hover {
+        text-decoration: underline;
+    }
+
+.Kostanay {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 528px;
+    top: 2040px;
+}
+
+    .Kostanay:hover {
+        text-decoration: underline;
+    }
+
+.Kyzylorda {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 528px;
+    top: 2080px;
+}
+
+    .Kyzylorda:hover {
+        text-decoration: underline;
+    }
+
+.Mamlyutka {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 920px;
+    top: 1800px;
+}
+
+    .Mamlyutka:hover {
+        text-decoration: underline;
+    }
+
+.Semey {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 920px;
+    top: 1840px;
+}
+
+    .Semey:hover {
+        text-decoration: underline;
+    }
+
+.Taldykorgan {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 920px;
+    top: 1880px;
+}
+
+    .Taldykorgan:hover {
+        text-decoration: underline;
+    }
+
+.Taraz {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 920px;
+    top: 1920px;
+}
+
+    .Taraz:hover {
+        text-decoration: underline;
+    }
+
+.Temirtau {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 920px;
+    top: 1960px;
+}
+
+    .Temirtau:hover {
+        text-decoration: underline;
+    }
+
+.Uralsk {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 920px;
+    top: 2000px;
+}
+
+    .Uralsk:hover {
+        text-decoration: underline;
+    }
+
+.Ust-Kamenogorsk {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    white-space: nowrap;
+    left: 920px;
+    top: 2040px;
+}
+
+    .Ust-Kamenogorsk:hover {
+        text-decoration: underline;
+    }
+
+.Usharal {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 920px;
+    top: 2080px;
+}
+
+    .Usharal:hover {
+        text-decoration: underline;
+    }
+
+.Khromtau {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 1305px;
+    top: 1800px;
+}
+
+    .Khromtau:hover {
+        text-decoration: underline;
+    }
+
+.Shalkar {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 1305px;
+    top: 1840px;
+}
+
+    .Shalkar:hover {
+        text-decoration: underline;
+    }
+
+.Shardara {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 1305px;
+    top: 1880px;
+}
+
+    .Shardara:hover {
+        text-decoration: underline;
+    }
+
+.Shakhtinsk {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 1305px;
+    top: 1920px;
+}
+
+    .Shakhtinsk:hover {
+        text-decoration: underline;
+    }
+
+.Shymkent {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 1305px;
+    top: 1960px;
+}
+
+    .Shymkent:hover {
+        text-decoration: underline;
+    }
+
+.Shchuchinsk {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 1305px;
+    top: 2000px;
+}
+
+    .Shchuchinsk:hover {
+        text-decoration: underline;
+    }
+
+.All-Cities {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: steelblue;
+    text-decoration: none;
+    white-space: nowrap;
+    left: 1305px;
+    top: 2080px;
+}
+
+    .All-Cities:hover {
+        color: dodgerblue;
+    }
+
+.License {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    text-decoration: underline;
+    white-space: nowrap;
+    color: black;
+    left: 528px;
+    top: 2140px;
+}
+
+    .License:hover {
+        color: dodgerblue;
+    }
+
+.Help {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    text-decoration: underline;
+    color: black;
+    left: 528px;
+    top: 2180px;
+}
+
+    .Help:hover {
+        color: dodgerblue;
+    }
+
+.Advertising {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    text-decoration: underline;
+    white-space: nowrap;
+    color: black;
+    left: 528px;
+    top: 2220px;
+    padding-bottom: 50px;
+}
+
+    .Advertising:hover {
+        color: dodgerblue;
+    }
+
+.Socials {
+    position: absolute;
+    font-family: Arial;
+    font-size: 14px;
+    color: dimgray;
+    text-decoration: none;
+    white-space: nowrap;
+    left: 920px;
+    top: 2140px;
+}
+
+.VK {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 920px;
+    top: 2180px;
+    cursor: pointer;
+}
+
+    .VK:hover {
+        filter: brightness(94%);
+    }
+
+.classmates {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    left: 975px;
+    top: 2186px;
+    cursor: pointer;
+}
+
+    .classmates:hover {
+        filter: brightness(94%);
+    }
+
+.X {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 1020px;
+    top: 2182px;
+    cursor: pointer;
+}
+
+    .X:hover {
+        filter: brightness(94%);
+    }
+
+.App {
+    position: absolute;
+    font-family: Arial;
+    font-size: 14px;
+    color: dimgray;
+    text-decoration: none;
+    white-space: nowrap;
+    left: 1305px;
+    top: 2140px;
+}
+
+.Google-Play {
+    position: absolute;
+    width: 150px;
+    height: auto;
+    left: 1305px;
+    top: 2183px;
+    cursor: pointer;
+}
+
+.App-Store {
+    position: absolute;
+    width: 135px;
+    height: auto;
+    left: 1470px;
+    top: 2183px;
+    cursor: pointer;
+}
