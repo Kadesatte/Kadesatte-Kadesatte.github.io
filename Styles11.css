@@ -1,0 +1,15 @@
+.txt1 {
+    position: absolute;
+    font-family: Arial;
+    font-size: 100px;
+    top: 24%;
+    left: 44%;
+}
+
+.txt2 {
+    position: absolute;
+    font-family: Arial;
+    font-size: 50px;
+    top: 42%;
+    left: 35%;
+}
